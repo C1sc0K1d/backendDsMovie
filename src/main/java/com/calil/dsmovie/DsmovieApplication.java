@@ -1,5 +1,6 @@
 package com.calil.dsmovie;
 
+import com.calil.dsmovie.entities.Score;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,6 +13,7 @@ public class DsmovieApplication {
 
 	public void print() {
 		System.out.print("teste");
+		Score score = new Score();
 	}
 
 }
